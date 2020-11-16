@@ -33,7 +33,7 @@ public class DcActivity extends AppCompatActivity {
     private int index;
     private Button right;
     private Handler handler = new Handler();
-    private int[] images = {R.drawable.bl, R.drawable.dbz};
+
     private List<ImageView> imageViewList;
     private LinearLayout mLl;
     private ListView mListView;

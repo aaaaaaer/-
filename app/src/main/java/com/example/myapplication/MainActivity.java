@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String date1 = date.getSelectedItem().toString().trim();
-                String type1 = type.getSelectitedItem().toString().trim();
+                String type1 = type.getSelectedItem().toString().trim();
                 String time1 = time.getSelectedItem().toString().trim();
                 if ("餐桌类型选择".equals(type1)&&"未来7天的日期列表".equals(date1)&&"选择时间段".equals(time1)) {
                     System.out.println("没有选择相对应的条目");
