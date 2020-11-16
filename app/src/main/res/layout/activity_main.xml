@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="35dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/type"
+        android:entries="@array/type"
+        android:layout_width="match_parent"
+        android:background="@drawable/white_bg"
+        android:layout_height="45dp" />
+
+    <Spinner
+        android:id="@+id/date"
+        android:entries="@array/date"
+        android:layout_width="match_parent"
+        android:background="@drawable/white_bg"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp" />
+
+    <Spinner
+        android:id="@+id/time"
+        android:entries="@array/time"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/white_bg"
+        android:layout_marginTop="35dp" />
+    <Button
+        android:id="@+id/queren_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="确定"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/green"
+        android:layout_marginTop="35dp"/>
+</LinearLayout>
